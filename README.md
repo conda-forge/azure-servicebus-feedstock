@@ -11,6 +11,18 @@ Summary: Microsoft Azure Service Bus Client Library for Python
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/azure-servicebus-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/azure-servicebus-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/azure-servicebus-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/azure-servicebus-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/azure-servicebus-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/azure-servicebus-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-servicebus/badges/version.svg)](https://anaconda.org/conda-forge/azure-servicebus)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-servicebus/badges/downloads.svg)](https://anaconda.org/conda-forge/azure-servicebus)
+
 Installing azure-servicebus
 ===========================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `azure-servicebus` available on yo
 ```
 conda search azure-servicebus --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/azure-servicebus-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/azure-servicebus-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/azure-servicebus-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/azure-servicebus-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/azure-servicebus-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/azure-servicebus-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-servicebus/badges/version.svg)](https://anaconda.org/conda-forge/azure-servicebus)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-servicebus/badges/downloads.svg)](https://anaconda.org/conda-forge/azure-servicebus)
 
 
 Updating azure-servicebus-feedstock
