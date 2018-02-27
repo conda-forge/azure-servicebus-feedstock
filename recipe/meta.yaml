@@ -7,7 +7,7 @@ package:
 source:
   fn: azure-servicebus-{{ version }}.zip
   url: https://pypi.io/packages/source/a/azure-servicebus/azure-servicebus-{{ version }}.zip
-  md5: 884d00de8e44f3e3558b22dac1e1a165
+  md5: bb6a27afc8f1ea9ab46ff2371069243d45000d351d9b64e450b63d52409b934d
   
 
 build:
