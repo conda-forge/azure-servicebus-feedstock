@@ -1,4 +1,4 @@
-{% set version = "0.20.1" %}
+{% set version = "0.50.0" %}
 
 package:
   name: azure-servicebus
@@ -7,13 +7,13 @@ package:
 source:
   fn: azure-servicebus-{{ version }}.zip
   url: https://pypi.io/packages/source/a/azure-servicebus/azure-servicebus-{{ version }}.zip
-  md5: 884d00de8e44f3e3558b22dac1e1a165
+  md5: 8d7dde7b03dd4a7d63540c5548293f28
   
 
 build:
   noarch: python
   script: python -m pip install --no-deps --ignore-installed .
-  number: 1
+  number: 0
 
 requirements:
   host:
