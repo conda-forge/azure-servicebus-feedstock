@@ -118,4 +118,5 @@ Feedstock Maintainers
 
 * [@Maxyme](https://github.com/Maxyme/)
 * [@ivoflipse](https://github.com/ivoflipse/)
+* [@scopatz](https://github.com/scopatz/)
 
