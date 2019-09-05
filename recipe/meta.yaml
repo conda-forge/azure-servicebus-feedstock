@@ -5,10 +5,8 @@ package:
   version: {{ version }}
 
 source:
-  fn: azure-servicebus-{{ version }}.zip
   url: https://pypi.io/packages/source/a/azure-servicebus/azure-servicebus-{{ version }}.zip
-  md5: f9e20735c1c0c44bcfe2f1d80d2b6f3f
-  
+  sha256: fb09141449de35542c9139f619d6c1edf5adfd08d8736c5f8222782b60d11445
 
 build:
   noarch: python
@@ -19,9 +17,6 @@ requirements:
   host:
     - pip
     - python
-    - setuptools
-    - azure-common
-    - requests
   run:
     - python
     - azure-common
@@ -44,3 +39,4 @@ extra:
   recipe-maintainers:
     - ivoflipse
     - Maxyme
+    - scopatz
