@@ -1,5 +1,5 @@
 {% set name = "azure-servicebus" %}
-{% set version = "7.12.1" %}
+{% set version = "7.12.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/azure-servicebus-{{ version }}.tar.gz
-  sha256: b11bf569eaf77c30d8a76f88b93c08713fd36188d9cc6dabf71eadb10eb742f9
+  sha256: a6a3c5f79ed5bef101d9e3e3c986a103b200e26c4953c47a52f552c757e45eca
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
     - python >=3.8
     - azure-core >=1.28.0
     - isodate >=0.6.0
-    - typing-extensions >=4.0.1
+    - typing-extensions >=4.6.0
 
 test:
   imports:
