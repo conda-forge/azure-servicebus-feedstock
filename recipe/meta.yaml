@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: a75e9a61435ca3ad3a797f1d8bf4fdd0d873eba9e5d383894ac87ef5e1a70cf0
 
 build:
@@ -16,15 +16,14 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
     - setuptools
   run:
-    - typing_extensions >=4.6.0
-    - python >=3.8
+    - python >={{ python_min }}
     - azure-core >=1.28.0
     - isodate >=0.6.0
-    - typing-extensions >=4.6.0
+    - typing_extensions >=4.6.0
 
 test:
   imports:
@@ -32,6 +31,7 @@ test:
   commands:
     - pip check
   requires:
+    - python {{ python_min }}
     - pip
 
 about:
