@@ -1,13 +1,13 @@
 {% set name = "azure-servicebus" %}
-{% set version = "7.14.3" %}
+{% set version = "7.15.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 70a63384557aec0bee727740e7b25ded29e9e701b77611764577fd7402389402
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 62c73f3d9efbaf0089a375adc5ef992ffe6d7d0b1218b8462265aa30ad352c3e
 
 build:
   noarch: python
