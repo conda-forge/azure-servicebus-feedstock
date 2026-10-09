@@ -22,6 +22,7 @@ requirements:
     - python ${{ python_min }}.*
     - pip
     - setuptools >=77.0.3
+    - wheel
   run:
     - python >=${{ python_min }}
     - azure-core >=1.28.0
@@ -33,7 +34,9 @@ tests:
       imports:
         - azure.servicebus
       pip_check: true
-      python_version: ${{ python_min }}
+      python_version:
+        - ${{ python_min }}
+        - "*"
 
 about:
   summary: Microsoft Azure Service Bus Client Library for Python
